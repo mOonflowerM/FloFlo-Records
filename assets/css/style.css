@@ -1,0 +1,152 @@
+:root{
+    --darkerBlue:#372554;
+    --lighterBlue:#4a4a85;
+    --lightlightBlue:rgb(227, 239, 247);
+}
+ul{list-style-type: none;}
+html{
+    scroll-behavior: smooth;
+
+}
+@font-face {
+    font-family:MojFont;
+    src: url(../font/Muli.ttf);
+}
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:MojFont;
+}
+a{
+    text-decoration: none;
+    color:var(--darkerBlue);
+}
+.logo{
+    width:55px;
+}
+.logoname{
+    font-weight: 500 !important;
+    letter-spacing: 3px;
+    color: var(--darkerBlue)!important;
+}
+.navbar-nav .nav-link.active{
+    color:var(--lighterBlue) !important;
+}
+.navbar-nav .nav-link{
+    color:var(--darkerBlue) !important;
+}
+.title1{
+    color:var(--darkerBlue);
+}
+.title2{
+    color:var(--lighterBlue)!important;
+    font-weight: 200 !important;
+
+}
+.col-lg-5 p {
+    font-size: 1.1rem !important;
+    font-weight: 400;
+}
+.btn-mine{
+    color:#E2EEF7;
+    background:var(--darkerBlue);
+    transition: all 0.4s ease-out;
+
+}
+.btn-mine:hover{
+    color: #fff;
+    background:var(--lighterBlue);
+
+    }
+.aboutColor{
+    background-color: var(--lightlightBlue);
+}
+.card{border:2px solid #eeee;
+    transition: transform .2s;
+};
+.card:hover{
+    transform: scale(1.1);
+}
+
+
+.card-text{
+    font-weight: lighter;
+}
+.disabled{
+    background-color: #eee!important;
+}
+.card-img-top{
+    transition: transform .3s;
+    object-fit: contain; 
+}
+
+
+.card-img-top:hover{
+    transform: scale(0.9);
+}
+
+.bi-suit-heart-fill{
+    font-size: 1.2rem !important;
+    color:var(--lighterBlue);
+    transition: ease-in 0.4s;
+    line-height: 4px;
+}
+.bi-suit-heart-fill:hover{
+    color:var(--darkerBlue);
+}
+.img-modal{
+    background:url(../img/vinyl.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.border-blue{
+    border-top: var(--lightlightBlue) 1px solid;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0px 2px 5px #e2e2e2, 0px -5px 6px var(--lightlightBlue);
+}
+.bi{
+    font-size: 1.2rem;
+    color:var(--lighterBlue);
+
+
+}
+.bg-1{
+    background:url(../img/vinylpetalsilik.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+}
+.bg-2,.bg-3{
+    background:url(../img/bg3.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.bg-3{
+    background:url(../img/bg6.jpg);
+
+}
+#textArea{
+    resize:none;
+}
+.formaColor{
+    background: rgba(227, 239, 247,0.4); 
+}
+.cartImage{
+    width: 60px; height: 60px; object-fit: cover;
+    
+}
+.formaCart{
+    width: 70px;
+}
+.modalText{
+    color:var(--darkerBlue);
+}
+.card-text{
+      color:var(--darkerBlue)!important;
+}
+.heartFillInColor {
+    color: var(--lighterBlue) !important;
+}

@@ -1,0 +1,93 @@
+[
+  {
+    "id": 1,
+    "name": "Billie Eilish - When We All Fall Asleep...",
+    "price": 55.99,
+    "img": { "src": "assets/img/billie2.webp", "alt": "Billie Vinyl" },
+    "katId": 1,
+    "fav":true
+  },
+  {
+    "id": 2,
+    "name": "Clint Mansell - Black Swan",
+    "price": 37.89,
+    "img": { "src": "assets/img/blackswan.webp", "alt": "Black Swan Vinyl" },
+    "katId": 3
+  },
+  {
+    "id": 3,
+    "name": "Tate McRae -  So Close to What Deluxe",
+    "price": 70.99,
+    "img": { "src": "assets/img/tate.webp", "alt": "Tate Vinyl" },
+    "katId": 1
+  },
+  {
+    "id": 4,
+    "name": "Hannah Montana - Hannah M. 2",
+    "price": 70.99,
+    "img": { "src": "assets/img/hannahmontana.webp", "alt": "Hannah Montana Vinyl" },
+    "katId": 1
+  },
+  {
+    "id": 5,
+    "name": "The 1975 - I like it when you sleep...",
+    "price": 72.99,
+    "img": { "src": "assets/img/the1975.webp", "alt": "The 1975 Vinyl" },
+    "katId": 1
+  },
+  {
+    "id": 6,
+    "name": "Andrew Lloyd  -  Phantom Of The Opera",
+    "price": 78,
+    "img": { "src": "assets/img/phantomOpera.webp", "alt": "Phantom Vinyl" },
+    "katId": 3
+  },
+  {
+    "id": 7,
+    "name": "Harry Styles -  Kiss All the Time.",
+    "price": 68.99,
+    "img": { "src": "assets/img/harryStyles.webp", "alt": "Harry Vinyl" },
+    "katId": 1,
+    "fav":true
+  },
+  {
+    "id": 8,
+    "name": "Ariana Grande -  eternal sunshine",
+    "price": 60.99,
+    "img": { "src": "assets/img/arianaGrande.webp", "alt": "Ariana Vinyl" },
+    "katId": 1,
+    "fav":true
+
+  },
+  {
+    "id": 9,
+    "name": "Kendrick Lamar -  DAMN.",
+    "price": 72.99,
+    "img": { "src": "assets/img/kendrickLamar.webp", "alt": "Kendrick Vinyl" },
+    "katId": 2
+  },
+  {
+    "id": 10,
+    "name": "Sza -  Ctrl",
+    "price": 50.85,
+    "img": { "src": "assets/img/sza.webp", "alt": "Sza Vinyl" },
+    "katId": 2
+    
+
+  },
+  {
+    "id": 11,
+    "name": "Ken Carson -  A Great Chaos",
+    "price": 45.60,
+    "img": { "src": "assets/img/kenCarson.webp", "alt": "Ken Carson Vinyl" },
+    "katId": 2
+  },
+  {
+    "id": 12,
+    "name": "Lauryn Hill - The Miseducation of Lauryn",
+    "price": 76.62,
+    "img": { "src": "assets/img/LaurynHill.webp", "alt": "Lauryn Hill Vinyl" },
+    "katId": 2,
+    "fav":true
+  }
+]

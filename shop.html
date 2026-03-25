@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="keywords" content="flow, record, store, vinyl, music"/>
+    <meta name="description" content="Experience the music with Flo Records. Flow your way through life."/>
+    <meta name="copyright" content="All rights reserved" />
+    <meta name="author" content="Maja Knezevic 14/23" />
+    <link rel="shortcut icon" href="assets/img/poslednjilogobgremoved.png" type="image/x-icon"/>
+    <title>FLO RECORDS | Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"/>
+    <link rel="stylesheet" href="assets/css/style.css"/>
+    <link rel="stylesheet" href="assets/css/responsive.css"/>
+</head>
+
+<body data-page="Shop">
+    <!-- nav  -->
+    <nav class="navbar navbar-expand-lg navbar-light py-1 shadow-sm">
+    <div class="container">
+        <div class="logobox d-flex align-items-center">
+            <a href="index.html">
+                <img class="img-fluid navbar-brand logo" src="assets/img/poslednjilogobgremoved.png" alt="Flo Records Logo"/>
+            </a>
+            <a class="navbar-brand fs-5 fw-500 logoname text-uppercase" href="index.html">flo records</a>
+        </div>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navBar" aria-controls="navBar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navBar">
+            <ul class="navbar-nav ms-auto align-items-center" id="main-nav">
+                </ul>
+        </div>
+    </div>
+</nav>
+
+    <header class="container-fluid rounded-bottom bg-1 py-4">
+        <div class="row title text-center">
+            <h1 class="fw-semibold title1 text-white text-uppercase">shop</h1>
+            <h4 class="fw-lighter text-white">spin the soundtrack of your life</h4>
+        </div>
+    </header>
+
+    <div class="container-fluid py-5 px-lg-5">
+        <div class="row">
+            <aside class="col-lg-3 mb-5">
+                <div class="p-4 border rounded shadow-sm bg-white">
+                    <h5 class="fw-bold mb-4">pick your vinyl</h5>
+                    
+                    <div class="mb-4">
+                        <label class="form-label fw-medium">Search</label>
+                        <input type="text" id="search" class="form-control" placeholder="artist or album...">
+                    </div>
+
+                    <div class="mb-4">
+                        <label class="form-label fw-medium">sort by</label>
+                        <select id="sort" class="form-select">
+                            <option value="default">no sort</option>
+                            <option value="price-asc">price: low to high</option>
+                            <option value="price-desc">price: high to low</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-4">
+                        <label for="genre-filter" class="form-label fw-medium">Genres</label>
+                        <select id="genre-filter" class="form-select">
+                            <option value="0">all genres</option>
+                            </select>
+                    </div>
+                    <div class="mb-4 form-check">
+                <input type="checkbox" class="form-check-input" id="show-favs">
+                <label class="form-check-label fw-medium" for="show-favs">show favs</label>
+            </div>
+                    <button id="clearFilters" class="btn btn-mine w-100 btn-sm">Reset Filters</button>
+                </div>
+            </aside>
+
+            <main class="col-lg-9">
+                <div class="row g-4" id="productsDisplay">
+                    </div>
+                    
+            </main>
+        </div>
+    </div>
+
+    <footer class="container-fluid border-blue">
+        <div class="row align-items-center justify-content-center py-3 g-2">
+          <div class="col-10 col-md-4 text-center"><p class="mb-0">Zdravka Čelara 16, Beograd <br/> 9am-3pm SAT 9am-1pm</p></div>
+          <div class="col-11 col-md-3 d-flex justify-content-center"><a href="index.html"><img src="assets/img/poslednjilogobgremoved.png" class="img-fluid d-block" alt="Logo"/></a></div>
+          <div class="col-6 col-md-3">
+            <ul class="d-flex justify-content-evenly align-items-center list-unstyled mb-0">
+                <li><a href="sitemap.xml"><i class="bi bi-diagram-3"></i></a></li>
+                <li><a href="#"><i class="bi bi-file-earmark-pdf"></i></a></li>
+                <li><a href="https://github.com/mOonflowerM/floflo"><i class="bi bi-github"></i></a></li>
+                <li><a href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a></li>
+            </ul>
+          </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/shop.js"></script>
+</body>
+</html>
