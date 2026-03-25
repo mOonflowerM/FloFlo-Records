@@ -7,6 +7,7 @@ const myNav=[
     {name:"Contact",link:"contact.html"},
     {name:"Author",link:"author.html"},
     {name:"Docs",link:"#"},
+    {name:"Zip",link:"#"},
    
     
 ]
