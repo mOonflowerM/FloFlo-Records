@@ -86,7 +86,7 @@
     "id": 12,
     "name": "Lauryn Hill - The Miseducation of Lauryn",
     "price": 76.62,
-    "img": { "src": "assets/img/LaurynHill.webp", "alt": "Lauryn Hill Vinyl" },
+    "img": { "src": "assets/img/laurynHill.webp", "alt": "Lauryn Hill Vinyl" },
     "katId": 2,
     "fav":true
   }
