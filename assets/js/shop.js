@@ -63,7 +63,7 @@ function displayShopProducts(allProducts){
  let favorites = JSON.parse(localStorage.getItem("favs")) || [];
 
 
-f (data.length === 0) {
+if (data.length === 0) {
         divForProducts.innerHTML = `
             <div class="col-12 text-center my-5">
                 <h3 class="fw-light text-muted heartFillInColor">no products found for selected criteria :(</h3>
