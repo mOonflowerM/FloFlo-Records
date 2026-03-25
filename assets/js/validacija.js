@@ -43,9 +43,10 @@ if(contactForm){
         let nameForm=document.getElementById("nameForm");
         let nameError=document.querySelector("#nameError");
       let isNameValid=checkInput(nameForm,regexFullName,nameError,"Full name is not in the right format");
+     
       let emailFormContact = document.getElementById("emailFormContact");
-        let emailErrorContact = document.getElementById("emailErrorContact");
-        let emailFromContactIsValid = checkInput(emailFormContact, regexEmail2, emailErrorContact, "Email is not in the right format.");
+      let emailErrorContact = document.getElementById("emailErrorContact");
+      let emailFromContactIsValid = checkInput(emailFormContact, regexEmail2, emailErrorContact, "Email is not in the right format.");
 
     let selectForm = document.getElementById("ddlSubject");
     let selectError = document.getElementById("ddlSubjectError");
