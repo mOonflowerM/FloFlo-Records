@@ -6,7 +6,7 @@ const myNav=[
     {name:"Shop",link:"shop.html"},
     {name:"Contact",link:"contact.html"},
     {name:"Author",link:"author.html"},
-    {name:"Docs",link:"#"},
+    {name:"Docs",link:"dokumentacijaWeb2.pdf"},
     {name:"Zip",link:"#"},
    
     
