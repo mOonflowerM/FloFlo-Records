@@ -7,7 +7,7 @@ const myNav=[
     {name:"Contact",link:"contact.html"},
     {name:"Author",link:"author.html"},
     {name:"Docs",link:"dokumentacijaWeb2.pdf"},
-    {name:"Zip",link:"#"},
+    {name:"Zip",link:"https://drive.google.com/file/d/1-X3754iu6OkFcoqn6zna3ngSSqUoUmr2/view?usp=sharing"},
    
     
 ]
